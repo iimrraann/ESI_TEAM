@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: manual_uploads
+    database: raw  
+    schema:  manual_uploads
+    tables:
+      - name: encounters
