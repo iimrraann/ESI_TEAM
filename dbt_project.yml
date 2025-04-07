@@ -46,5 +46,5 @@ models:
       +materialized: table
     gold:
       database: gold_db
-      schema: reporting
+      +custom_schema_name: true
       +materialized: table
