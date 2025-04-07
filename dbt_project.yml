@@ -42,6 +42,9 @@ models:
       database: bronze_db
       +materialized: table
     silver:
+      database: silver_db
       +materialized: table
     gold:
+      database: gold_db
+      schema: reporting
       +materialized: table

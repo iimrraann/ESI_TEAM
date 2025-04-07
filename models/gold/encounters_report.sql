@@ -1,1 +1,2 @@
-select city, sum(order_total) from {{ ref("encounters") }} group by 1
+select city, sum(order_total) as total 
+from {{ ref("encounters") }} group by 1
