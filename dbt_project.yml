@@ -39,7 +39,7 @@ models:
   ESI_TEAM:
     # Applies to all files under models/example/
     bronze:
-      database: bronze
+      database: bronze_db
       +materialized: table
     silver:
       +materialized: table
